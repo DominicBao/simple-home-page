@@ -6,3 +6,5 @@
 demo的形式想过很多，本来想借鉴Journey大佬的[小车特效](https://bruno-simon.com/)但是发现距离实现这样的效果需要的时间和精力过长
 
 后面发现了[three.js官网的例子页面](https://threejs.org/)正是我想要的效果，而且实现起来比较简单，所以决定借鉴它完成自己的首页
+
+整个项目由dist-html中的config驱动，方便后续往里面加项目和介绍
