@@ -1,5 +1,35 @@
 .item {
-  width: 40px;
-  height: 40px;
-  background-color: red;
+  h2 {
+      border-top: none;
+      padding: 0;
+      margin: 16px 0 0 0;
+      font-size: calc(16px - 1px);
+      line-height: 26px;
+      font-weight: 500;
+      color: #049EF4;
+  }
+  ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 0 20px 0;
+    li {
+      margin: 1px 0;
+      color: #444;
+      a {
+        text-decoration: none;
+        position: relative;
+        color: #444;
+        cursor: pointer;
+      }
+      a:hover {
+        color: #049EF4;
+      }
+    }
+  }
 }
