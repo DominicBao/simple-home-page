@@ -3,7 +3,6 @@ import Item from '../item'
 import './index.less'
 
 const Panel = () => {
-  console.log(config, 'config')
   const [width, setWidth] = useState(300)
   return <div className="panel">
     <div className="header">
