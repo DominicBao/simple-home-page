@@ -45,4 +45,14 @@ module.exports = {
       profile: false, // 默认false，启用探查器。
     }),
   ],
+  stats: {
+    all: false,
+    builtAt: false,
+    colors: false,
+    errors: true,
+    moduleTrace: false,
+    timings: false,
+    version: false,
+    warnings: true,
+  },
 }

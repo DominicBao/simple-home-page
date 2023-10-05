@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const common = require('./webpack.common.config')
+const {FileListPlugin} = require('./plugins/test')
 
 module.exports = merge(common, {
   mode: 'production',
@@ -32,6 +33,7 @@ module.exports = merge(common, {
       filename: 'css/[name].[hash].css',
       chunkFilename: 'css/[id].[hash].css',
     }),
+    new FileListPlugin(),
   ],
   module: {
     rules: [
